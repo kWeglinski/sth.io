@@ -1,0 +1,19 @@
+.Timeline {
+    display: block;
+    .Timeline--element {
+        display: flex;
+        align-items: flex-start; 
+        padding-bottom: 30px;
+        @media screen and (max-width: 1120px) {
+            display: block;
+        }
+        .Timeline--element-time {
+            min-width: 200px;
+        }
+        .Timeline--element-title {
+            font-size: 18px;
+            padding: 5px 0 5px 0;
+            margin: 0;
+        }
+    }
+}

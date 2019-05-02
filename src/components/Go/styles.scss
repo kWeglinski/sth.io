@@ -1,0 +1,29 @@
+.Go {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    .chevron-down {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        position: relative;
+
+        &:before, &:after {
+            position: absolute;
+            content: "";
+            background: #000;
+            width: 1px;
+            height: 35px;
+        }
+
+        &:before {
+            left: 7px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            right: 7px;
+            transform: rotate(45deg);
+        }
+    }
+}

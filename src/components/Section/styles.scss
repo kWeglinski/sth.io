@@ -1,0 +1,11 @@
+.Section {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Section__container {
+        max-width: 700px;
+        padding: 0 30px;
+    }
+}
